@@ -14,7 +14,7 @@ def purchase(username, password, us_teman, text):
     print("----- Borneo Kalsel ------")
     print("-- Bot Auto While DM IG --\n")
     print("Bot Sedang Berjalan\n")
-    driver = webdriver.Firefox(executable_path = 'webdriver/geckodriver.exe', options = options)
+    driver = webdriver.Firefox(executable_path = 'geckodriver.exe', options = options)
     wait = WebDriverWait(driver, 10)
     
     driver.get(login_url)
