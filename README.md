@@ -6,5 +6,7 @@ buka lewat CMD
 3. choco install python
 4. choco install pip
 5. pip install selenium
-6. python bot.py
-7. selesai
+6. git clone https://github.com/saidadam98/dm
+7. cd dm
+8. python bot.py
+9. selesai
