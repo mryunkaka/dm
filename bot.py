@@ -36,16 +36,16 @@ def purchase(username, password, us_teman, text):
     driver.find_element_by_class_name('rIacr').click() 
     wait.until(presence_of_element_located((By.CLASS_NAME, 'aOOlW')))
     driver.find_element_by_class_name('aOOlW').click()  
-    i = 0
-    while i < 5:
+    i = 10
+    while i < 5: # ganti 5 jadi banyak pesan dikirim
         print('Telah Terkirim ')
         print(i)
         i += 1
         driver.find_element_by_xpath("//textarea[@placeholder='Message...']").send_keys(text + Keys.RETURN)
     print('Selesai')
 
-username = 'sayid_adam.k' # isi dengan username
-us_teman = 'nrmaulitaa' # isi dengan username teman
-password = 'SaB814128a' # isi dengan password 
-text     = 'tes'
+username = '' # isi dengan username
+us_teman = '' # isi dengan username teman
+password = '' # isi dengan password 
+text     = '' # isi pesannya
 purchase(username, password, us_teman, text)
